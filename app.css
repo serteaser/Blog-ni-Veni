@@ -4,7 +4,35 @@
 }
 
 h1 {
-    font-size: 36px;
+    font-size: 48px;
     font-weight: 800;
     font-style: italic;
+    margin: 10px 0 0 20px;
+}
+
+.container { 
+    display: block;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+}
+
+.form-wrap {
+    display: flex;
+    flex-flow: column;
+}
+
+.form-wrap > label {
+    margin-left: 10px;
+}
+
+.form-wrap>input, button{
+    width: 30vw;
+    height: 7vh;
+    background-color: antiquewhite;
+    padding: 5px;
+    margin: 10px 10px;
+    border-radius: 5px;
+    border: none;
 }
