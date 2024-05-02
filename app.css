@@ -1,0 +1,10 @@
+* {
+    box-sizing: border-box;
+    background-color: aquamarine;
+}
+
+h1 {
+    font-size: 36px;
+    font-weight: 800;
+    font-style: italic;
+}
